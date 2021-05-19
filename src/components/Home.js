@@ -13,18 +13,54 @@ function Home() {
                 />
 
                 <div className="home__row">
-                    <Product />
-                    <Product />
+                    <Product
+                        id='546468552'
+                        title='The lean Startup: How Constant Innovation Creates Radically Successful Businesses Paperback'
+                        price={29.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/51Zymoq7UnL._AC_SY400_.jpg'
+                        rating={5}
+                    />
+                    <Product
+                        id='123132156'
+                        title='Kenwood kMix Stand Mixer for Baking, Stylish Kitchen Mixer with K-beater, Dough Hook and Whisk, 5 Liter Glass Bowl'
+                        price={239.0}
+                        image='https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SX450_.jpg'
+                        rating={4}
+                    />
                 </div>
 
                 <div className="home__row">
-                    <Product />
-                    <Product />
-                    <Product />
+                    <Product
+                        id='78898797'
+                        title="'Samsung LC49RG90SSUXEM 49' Curved LED Gaming Monitor"
+                        price={199.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/71Swqqe7XAL._AC_SX466_.jpg'
+                        rating={3}
+                    />
+                    <Product
+                        id='256983321'
+                        title='Amazon Echo (3rd generation) | Smart speaker with Alexa, Charcoal Fabric'
+                        price={98.99}
+                        image='https://media.very.co.uk/i/very/P6LTG_SQ1_0000000071_CHARCOAL_SLf?$300x400_ret.jpg'
+                        rating={5}
+                    />
+                    <Product
+                        id='968574236'
+                        title='New Apple ipad Pro (12.9-inch, Wi-Fi, 128GB) - Silver (4th Generation)'
+                        price={598.99}
+                        image='https://images-na.ssl-images-amazon.com/images/I/816ctt5WV5L._AC_SX385_.jpg'
+                        rating={4}
+                    />
                 </div>
 
                 <div className="home__row">
-                    <Product />
+                    <Product
+                        id='357951852'
+                        title='Samsung LC49RG90SSUXEN 49 Curved LED Gaming Monitor - Super Ultra Wide Dual WQHD 5120 x 1440'
+                        price={239.0}
+                        image='https://images-na.ssl-images-amazon.com/images/I/6125mFrzr6L._AC_SX355_.jpg'
+                        rating={4}
+                    />
                 </div>
             </div>
 
