@@ -38,6 +38,13 @@ const reducer = (state, action) => {
                 basket: newBasket
             }
 
+        case 'CLEAN_BASKET':
+            console.log('clean basket')
+            return {
+                ...state,
+                basket: action.basket
+            }
+
         case 'SET_USER':
             return {
                 ...state,

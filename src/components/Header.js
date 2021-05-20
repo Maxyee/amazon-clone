@@ -10,6 +10,10 @@ function Header() {
     const [{ basket, user }, dispatch] = useStateValue();
 
     const handleAuthentication = () => {
+        dispatch({
+            type: 'CLEAN_BASKET',
+            basket: []
+        });
         if (user) {
             auth.signOut();
         }
